@@ -1,1 +1,1 @@
-It is for learning C#
+this repository is for learning C#
