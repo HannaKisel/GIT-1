@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{EAE0B051-BF73-4D1B-9162-8FCB6A068A69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first task with string", "first task with string\first task with string.csproj", "{07307A04-39DC-4D44-B192-78604C015AA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EAE0B051-BF73-4D1B-9162-8FCB6A068A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAE0B051-BF73-4D1B-9162-8FCB6A068A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAE0B051-BF73-4D1B-9162-8FCB6A068A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAE0B051-BF73-4D1B-9162-8FCB6A068A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07307A04-39DC-4D44-B192-78604C015AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07307A04-39DC-4D44-B192-78604C015AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07307A04-39DC-4D44-B192-78604C015AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07307A04-39DC-4D44-B192-78604C015AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
