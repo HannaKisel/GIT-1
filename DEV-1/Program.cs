@@ -1,29 +1,25 @@
-﻿// First Task program in C#.
-using System;
-namespace FirstTask
+﻿using System;
+
+namespace first_task_with_string
 {
-    class Task
+    class Program
     {
         static void Main()
         {
-            
+           
             for (int i = 0; i < 101; i++)
             {
+                string posl = i.ToString();
                 if (i % 3 == 0)
                 {
-                    int number;
-                    number = i / 3;
-                    Console.Write("3 * "+ number );                                  
+                    posl = " 3* " + i / 3;
                 }
-                else
-                {
-                    Console.Write(i);
-                }
-                Console.Write(" ; ");
 
+
+                    System.Console.Write(posl + " ; ");
             }
-
-            Console.Write("\n");
+            System.Console.WriteLine(" ");
+          
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
