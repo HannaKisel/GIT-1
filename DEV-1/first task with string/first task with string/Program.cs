@@ -24,7 +24,7 @@ namespace first_task_with_string
                 System.Console.Write(posl + " ; ");
             }
             System.Console.WriteLine(" ");
-            Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("Press any key to exit");
             Console.ReadKey();
         }
     }
