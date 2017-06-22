@@ -9,9 +9,17 @@ namespace first_task_with_string
             for (int i = 0; i < 101; i++)
             {
                 string posl = i.ToString();
-                if (i % 3 == 0)
+                if ((i % 3 == 0) && (i % 5 == 0))
                 {
-                    posl = " 3* " + i / 3;
+                    posl = "Tutti-Frutti";
+                }
+                else if (i % 3 == 0)
+                {
+                    posl = " Tutti";
+                }
+                else if (i % 5 == 0)
+                {
+                    posl = " Frutti";
                 }
                 System.Console.Write(posl + " ; ");
             }
