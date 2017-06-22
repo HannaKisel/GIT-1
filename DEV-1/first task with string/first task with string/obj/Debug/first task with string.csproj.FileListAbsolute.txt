@@ -1,6 +1,0 @@
-E:\TAT\GIT-1\DEV-1\first task with string\first task with string\bin\Debug\first task with string.exe.config
-E:\TAT\GIT-1\DEV-1\first task with string\first task with string\bin\Debug\first task with string.exe
-E:\TAT\GIT-1\DEV-1\first task with string\first task with string\bin\Debug\first task with string.pdb
-E:\TAT\GIT-1\DEV-1\first task with string\first task with string\obj\Debug\first task with string.csprojResolveAssemblyReference.cache
-E:\TAT\GIT-1\DEV-1\first task with string\first task with string\obj\Debug\first task with string.exe
-E:\TAT\GIT-1\DEV-1\first task with string\first task with string\obj\Debug\first task with string.pdb
