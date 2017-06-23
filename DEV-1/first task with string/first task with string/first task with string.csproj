@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07307A04-39DC-4D44-B192-78604C015AA6}</ProjectGuid>
+    <ProjectGuid>{C381795E-304A-45CF-9B07-B753C46D6FCF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>first_task_with_string</RootNamespace>
