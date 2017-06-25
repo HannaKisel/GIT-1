@@ -2,12 +2,12 @@
 
 namespace SequenceFib
 {
-    class Program
+    class detectFibNumb
     {
         static void Main()
         {
-            bool work = true;
-            while (work)
+            bool checking = true;
+            while (checking)
             {
                 try
                 {
@@ -51,7 +51,7 @@ namespace SequenceFib
                     Console.WriteLine("It is not a number. Try again");
                     continue;
                 }
-                work = false;
+                checking = false;
             }
         }
     }
