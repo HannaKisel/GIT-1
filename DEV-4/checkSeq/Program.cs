@@ -6,7 +6,7 @@ namespace checkSeq
     {
         const string ERRORLENGTHS = "This sequence is not nondecreasing and is't decreasing ";
 
-        static void Main(string[] args)
+        static void Main(string[] comLineArgs)
         {
             bool Checking = true;
             while (Checking)
@@ -14,7 +14,7 @@ namespace checkSeq
                 try
                 {
                     Inputer inputer = new Inputer();
-                    int[] array = inputer.input();
+                    int[] array = inputer.input(comLineArgs);
                     if (array.Length == 1)
                     {
                         Console.WriteLine(ERRORLENGTHS);
