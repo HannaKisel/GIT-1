@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inputer.cs" />
+    <Compile Include="Outputer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SequenceType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
