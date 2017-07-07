@@ -4,28 +4,28 @@ namespace checkSeq
 {
     class Inputer
     {
-        public int[] input(string[] comLineArgs)
+        public int[] InputConsole()
         {
-            int[] array = null;
-            if (comLineArgs.Length == 0)
-            {
-                Console.Write("Enter array from console = ");
-                string[] stringArray = Console.ReadLine().Split(new char[] { ',', ';' });
-                array = new int[stringArray.Length];
-                for (int i = 0; i < stringArray.Length; i++)
-                {
-                    array[i] = int.Parse(stringArray[i]);
-                }
-            }
-            else
-            {
-                array = new int[comLineArgs.Length];
-                for (int i = 0; i < comLineArgs.Length; i++)
-                {
-                    array[i] = int.Parse(comLineArgs[i]);
-                }
-            }
+            Console.Write("Enter array from console = ");
+            string[] stringArray = Console.ReadLine().Split(new char[] { ',', ';' });
+            int[] array = Parser(stringArray);
             return array;
+        }
+
+        public int[] InputComLine(string[] comLineArgs)
+        {
+            int[] array = Parser(comLineArgs);
+            return array;
+        }
+
+        public int[] Parser(string[] posl)
+        {
+            int[] arrayFromString = new int[posl.Length];
+            for (int i = 0; i < posl.Length; i++)
+            {
+                arrayFromString[i] = int.Parse(posl[i]);
+            }
+            return arrayFromString;
         }
     }
 }

@@ -13,8 +13,16 @@ namespace checkSeq
             {
                 try
                 {
+                    int[] array;
                     Inputer inputer = new Inputer();
-                    int[] array = inputer.input(comLineArgs);
+                    if (comLineArgs.Length != 0)
+                    {
+                        array = inputer.InputComLine(comLineArgs);
+                    }
+                    else
+                    {
+                        array = inputer.InputConsole();
+                    }
                     if (array.Length == 1)
                     {
                         Console.WriteLine(ERRORLENGTHS);
