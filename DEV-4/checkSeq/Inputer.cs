@@ -4,7 +4,7 @@ namespace checkSeq
 {
     class Inputer
     {
-        public int[] InputConsole()
+        public int[] ConsoleInput()
         {
             Console.Write("Enter array from console = ");
             string[] stringArray = Console.ReadLine().Split(new char[] { ',', ';' });

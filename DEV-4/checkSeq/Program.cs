@@ -21,7 +21,7 @@ namespace checkSeq
                     }
                     else
                     {
-                        array = inputer.InputConsole();
+                        array = inputer.ConsoleInput();
                     }
                     if (array.Length == 1)
                     {
