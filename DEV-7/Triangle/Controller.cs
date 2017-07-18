@@ -1,21 +1,12 @@
-﻿using System;
-
-namespace Triangle
+﻿namespace Triangle
 {
     class Controller
     {
-        const string UNCORRECTNUMB = "This numbers are uncorrect for tringle. Try again";
-
-        public bool control(double sideA, double sideB, double sideC)
+        public bool CheckForExistance(Sides sides)
         {
             bool checking = true;
-            if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA)
+            if (sides.sideA + sides.sideB <= sides.sideC && sides.sideA + sides.sideC <= sides.sideB && sides.sideB + sides.sideC <= sides.sideA)
             {
-                checking = true;
-            }
-            else
-            {
-                Console.WriteLine(UNCORRECTNUMB);
                 checking = false;
             }
             return checking;
