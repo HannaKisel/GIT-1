@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="CommonSubstringFinder.cs" />
     <Compile Include="EntryPoint.cs" />
-    <Compile Include="OutperOfSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringInputer.cs" />
   </ItemGroup>

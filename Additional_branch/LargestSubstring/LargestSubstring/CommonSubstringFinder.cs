@@ -10,25 +10,25 @@ namespace LargestSubstring
     /// <param name="bigString"> big string for finder of substring </param>
     /// <param name="smallString"> small string for finder of substring </param>
     /// <returns> first common largest substring of two substrings </returns>
-    public ArrayList FindCommonSubstring(string bigString, string smallString)
+    public ArrayList FindCommonSubstring(string stringA, string stringB)
     {
       ArrayList largestSubstring = new ArrayList();
       ArrayList substring = new ArrayList();
-      for (int i = 0; i < bigString.Length; i++)
+      for (int i = 0; i < stringA.Length; i++)
       {
-        for (int j = 0; j < smallString.Length; j++)
+        for (int j = 0; j < stringB.Length; j++)
         {
-          if (bigString[i] == smallString[j])
+          if (stringA[i] == stringB[j])
           {
             int k = i, l = j;
-            while (bigString[k] == smallString[l])
+            while (stringA[k] == stringB[l])
             {
-              if (l == smallString.Length - 1 || k == bigString.Length - 1)
+              if (l == stringB.Length - 1 || k == stringA.Length - 1)
               {
-                substring.Add(bigString[k]);
+                substring.Add(stringA[k]);
                 break;
               }
-              substring.Add(bigString[k]);
+              substring.Add(stringA[k]);
               k++;
               l++;
             }
