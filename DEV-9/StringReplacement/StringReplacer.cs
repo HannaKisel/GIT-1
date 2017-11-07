@@ -3,6 +3,9 @@ using System.Text;
 
 namespace StringReplacement
 {
+  /// <summary>
+  /// This method replayses two randomly choosed substrings.
+  /// </summary>
   class StringReplacer
   {
     private Random random = new Random();

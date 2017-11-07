@@ -2,11 +2,11 @@
 
 namespace StringReplacement
 {
+  /// <summary>
+  /// This class contains a method that creates strings.
+  /// </summary>
   class StringCreator
   {
-    /// <summary>
-    /// This class contains a method that creates strings.
-    /// </summary>
     const int STARTOFLOWERCASECHARACTERS = 97;
     const int ENDTOFLOWERCASECHARACTERS = 123;
     const int MINLENGTHOFLINE = 10;
